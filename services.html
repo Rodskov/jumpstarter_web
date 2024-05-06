@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/0b451dbf3a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Our Services</title>
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper red darken-4">
+                <a href="index.html" class="brand-logo">Jumpstarter</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down"  style="margin-left: 20px; margin-right: 20px;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="appointment.html">Schedule Appointment</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    
+        <ul class="sidenav" id="mobile-demo">
+            <br>
+            <li><a href="index.html"><i class="fa-solid fa-house left"></i>Home</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-cart-shopping left"></i>Services</a></li>
+            <li><a href="appointment.html"><i class="fa-regular fa-calendar left"></i>Appointment</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-circle-question left"></i>About Us</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1>Our Services</h1>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="container">
+        <p>
+            Whether you're seeking expert graphic design, reliable web development, captivating content creation, or innovative digital marketing solutions, we've got you covered. Our team of skilled professionals is dedicated to delivering top-notch services tailored to your specific requirements.
+        </p>
+        
+    </div>
+    
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large waves-effect waves-light red darken-1">
+            <i class="fa-solid fa-message"></i>
+        </a>
+        <ul>
+            <li><a class="btn-floating blue lighten-2"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a class="btn-floating red"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a class="btn-floating blue darken-2"><i class="fa-brands fa-facebook-messenger"></i></a></li>
+            <li><a class="btn-floating orange"><i class="fa-regular fa-envelope"></i></a></li>
+        </ul>
+        
+    </div>
+        
+    
+    <!-- FOOTER -->
+    <footer class="page-footer" style="background-color: rgb(173, 37, 37);">
+        <div class="container">
+            <div class="row">
+                <!-- First Footer Column -->
+                <div class="col s12 m4" style="font-size: 16px;">
+                    <ul>
+                        <li><a href="#!" class="grey-text text-lighten-3">Terms and Conditions</a></li>
+                        <li><a href="#!" class="grey-text text-lighten-3">Privacy Policy</a></li>
+                        <li><a href="#!" class="grey-text text-lighten-3">Services</a></li>
+                        <li><a href="#!" class="grey-text text-lighten-3">Appointment</a></li>
+                        <li><a href="#!" class="grey-text text-lighten-3">About Us</a></li>
+                    </ul>
+                </div>
+                <!-- Third Footer Column -->
+                <div class="col s12 m4">
+                    <h5 class="white-text">Follow us</h5>
+                    <ul class="social-icons">
+                        <li><a class="grey-text text-lighten-3" href=""><i class="fa-brands fa-square-facebook fa-xl"></i></a></li>
+                        <li><a class="grey-text text-lighten-3" href=""><i class="fa-brands fa-twitter fa-xl"></i></a></li>
+                        <li><a class="grey-text text-lighten-3" href=""><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+                        <li><a class="grey-text text-lighten-3" href=""><i class="fa-brands fa-tiktok fa-xl"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- First Footer Copyright -->
+        <div class="footer-copyright">
+            <div class="container">
+                © 2024 Jumpstarter
+                <a href="" class="grey-text text-lighten-4 right"> More Links</a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Floating Action Button -->
+    <script>
+        $('.fixed-action-btn').floatingActionButton({
+            direction: 'left',
+            hoverEnabled: false
+        });
+    </script>
+    <!-- NavBar -->
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+        });
+    </script>
+    <!-- Parallax -->
+    <script>
+        $(document).ready(function(){
+            $('.parallax').parallax();
+        });
+    </script>
+    <!-- Carousel -->
+    <script>
+        $(document).ready(function(){
+            $('.carousel.carousel-slider').carousel({
+                fullWidth: true,
+                indicators: true
+            });
+        });
+    </script>
+    
+</body>
+</html>
